@@ -1,8 +1,8 @@
 <?php   
 $str = 1;
 if(isset ($str)){
-    echo '这是isset';
-}
+     echo 'hello world';
+};
 if(!empty($str)){
     echo '这是empty';
 };
