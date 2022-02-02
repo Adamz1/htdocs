@@ -1,38 +1,11 @@
 <?php
 $arr = array(
-    [
-        "name" => "adam",
-        "school" => "centennial"
-    ],
-    [
-        "name" => "teresa",
-        "school" => "seneca"
-    ],
-    [
-        "name" => "richard",
-        "school" => "u of t"
-    ]
+    1=> "adam",
+    2=>"teresa"  
 );
-
-$arr1 = array(  
-    
-
-);
-foreach($arr1 as $name){
-    echo($name);
-    echo('<hr/>');
-}
-
-
-foreach ($arr as $key) {          
-    foreach($key as $v){
-        echo $v;    
-        echo("<hr/>");
-    }
-
-};
-
-$name = "adasm";
-print_r($name);
-echo ("<br/>"
-);
+var_dump($arr);
+echo "<br>";     
+echo count($arr);
+// foreach($arr as $str){
+//     echo $str;
+// };
